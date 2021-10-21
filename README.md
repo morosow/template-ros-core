@@ -9,7 +9,7 @@ ROS, check out [this template](https://github.com/duckietown/template-basic).
 **NOTE:** This template builds on all of the packages [the dt-core repo](https://github.com/duckietown/dt-core). If you want to build an image without any of the packages in `dt-core` then use [the template-ros repo](https://github.com/duckietown/template-ros)
 
 
-## How to use
+## How to use it
 
 ### 1. Fork this repository
 
