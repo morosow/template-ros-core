@@ -127,7 +127,7 @@ class Node:
 class GraphDraw(DTROS):
 
     def __init__(self, node_name):
-        self.sub_mode = rospy.Subscriber('/image/compressed/', CompressedImage, image_cb)
+        self.sub_mode = rospy.Subscriber('/image/compressed/', CompressedImage, self.image_cb)
         self.bridge = CvBridge()
 
     def image_cb(self, image_msg):
