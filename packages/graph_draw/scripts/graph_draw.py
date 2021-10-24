@@ -100,8 +100,8 @@ class Graph:
     @staticmethod
     def get_similarity(img_1, img_2):
         if str(img_1) == str(img_2):
-            return 0
-        return random.random()
+            return 1
+        return Instruments.rmse_sim(img_1, img_2)
 
 
 default_graph = Graph()
